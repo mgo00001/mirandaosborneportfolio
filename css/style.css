@@ -1,7 +1,7 @@
 
 
 
-/*NAV AND FOOTER*/
+/*NAV AND FOOTER*/ 
 
 html {
     scroll-behavior: smooth;
@@ -84,6 +84,10 @@ nav {
     
 }
 
+br {
+    
+}
+
 #resume2 strong {
     font-family: "filson-soft", sans-serif;
 font-weight: 700;
@@ -103,22 +107,24 @@ font-style: normal;
 }
 
 .resume1 {
+    
     list-style-type: none;
-    margin-top: 18px;
-    margin-left: 5px;
+    margin-top: -1100px;
+    margin-left: -28px;
 }
 
 .resume1 li {
     
-    padding: 5px 0;
+    padding: 3px 0;
     font-family: "filson-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: -3px;
 }
 #educationp {
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: -7px;
     font-size: 17px;
     font-family: "filson-soft", sans-serif;
     font-weight: 700;
@@ -133,13 +139,31 @@ font-style: normal;
     margin-bottom: -8px;
 }
 
-#resumedata {
+#joblabel {
     font-family: "filson-soft", sans-serif;
-    
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+#jobdata {
+    font-family: "filson-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
     margin-bottom: 8px;
+    line-height:130%;
+    margin-top: 5px;
+
+}
+
+#resumedata {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 0px;
 }
 
 .resume2 {
@@ -153,7 +177,7 @@ font-style: normal;
     font-family: "filson-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 19px;
+    font-size: 17px;
     
 }
 
@@ -289,7 +313,7 @@ font-style: normal;
     font-family: "new-kansas", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size:35px;
+    font-size:30px;
     color:#9F2D38;
 }
 
@@ -297,13 +321,19 @@ font-style: normal;
     font-family: "filson-soft", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size:20px;
+    font-size:21px;
     
 }
 .resume p {
     font-size: 19px;
     line-height: 1.9;
 }
+
+#educationli {
+    margin-bottom: -5px;
+    margin-top: -2px;
+}
+
 #homename {
     font-family: "new-kansas", sans-serif;
     font-weight: 700;
