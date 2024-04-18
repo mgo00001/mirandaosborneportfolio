@@ -461,8 +461,8 @@ video {
     margin-bottom: 60px;
 }
 
-#youtubedangersketch {
-    margin-top: 50px;
+#murallogo {
+    margin-top: 40px;
 }
 /*SECTIONS*/
 
@@ -610,6 +610,9 @@ margin-top: 85px;
 .projectlabel3 {
     margin-top: 75px;
 }
+
+
+
 .thumbnailscontainer img {
     border-radius: 20px;
 }
