@@ -1,0 +1,756 @@
+
+
+
+/*NAV AND FOOTER*/ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homenav a{
+    text-decoration: none;
+    color:#9F2D38;
+}
+
+.homenav a:hover{
+    color:#FF0F55;
+}
+nav a{
+    text-decoration: none;
+    color: #FFD2D1;
+}
+
+#activepage {
+    color:#F9E1C6;
+}
+#activepage:hover{
+    color:white;
+}
+nav a:hover {
+    color: white;
+}
+
+.arrows {
+    margin-top: 50px;
+}
+footer ul {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+nav ul {
+    list-style-type: none;  
+}
+
+nav li {
+float: left;
+font-family: "new-kansas", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 27px;
+color: #c65863;
+padding: 40px 15px 0;
+}
+
+nav {
+    background-color: #9F2D38;
+    height: 135px;
+}
+.projectinfo ul {
+    list-style-type: none;
+}
+
+.projectinfo li {
+    float: left;
+    font-size: 23px;
+    color: #9F2D38;
+    padding: 20px;
+}
+
+.socials ul {
+    list-style-type: none;
+    margin-top: -101px;
+   
+}
+.socials li {
+   
+   
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 5px;
+    
+}
+
+
+#resume2 strong {
+    font-family: "filson-soft", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.secondlist strong {
+    font-family: "filson-soft", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+#educationp strong {
+    font-family: "filson-soft", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.resume1 {
+    
+    list-style-type: none;
+    margin-top: -1100px;
+    margin-left: -28px;
+}
+
+.resume1 li {
+    
+    padding: 3px 0;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: -3px;
+}
+#educationp {
+    margin-top: -20px;
+    margin-bottom: -7px;
+    font-size: 17px;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+}
+
+#resumelabel {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: -8px;
+}
+
+#joblabel {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+#jobdata {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 8px;
+    line-height:130%;
+    margin-top: 5px;
+
+}
+
+#resumedata {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.resume2 {
+    list-style-type: none;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.resume2 li {
+    padding: 2px;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    
+}
+
+.homelist {
+    list-style-type: none;
+}
+
+.homenav ul{
+    list-style-type: none; 
+   
+}
+
+
+.homenav li {
+    float: left;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #9F2D38;
+    font-size: 37px;
+    padding: 0px 60px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+}
+
+.thumbnailscontainer {
+    background-color:#F9E1C6;
+   
+}
+.thumbnailscontainer ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+}
+
+.thumbnailscontainer li {
+    padding-right: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+
+/*TYPE AND FONTS*/
+
+
+#projectspagep {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+strong {
+    font-family: "new-kansas", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+h1 {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: "filson-soft", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 23px;
+}
+
+#resumename {
+    color:#9F2D38;
+    font-size: 55px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#resumesubname {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#FF0F55;
+    font-size: 27px;
+    margin-left: 15px;
+}
+.projecttitle {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FF0F55;
+    margin-top: 50px;
+    
+}
+
+#label4 {
+    
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
+    color:#9F2D38;
+    margin-left: 30px;
+    
+}
+
+#label3 {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:35px;
+    color:#9F2D38;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#label2 {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:25px;
+    color:#9F2D38;
+}
+
+.label1 {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:30px;
+    color:#9F2D38;
+}
+
+#label5 {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:21px;
+    
+}
+.resume p {
+    font-size: 19px;
+    line-height: 1.9;
+}
+
+#educationli {
+    margin-bottom: -5px;
+    margin-top: -2px;
+}
+
+#homename {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    color:#FF0F55
+}
+
+#homesubname {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#9F2D38;
+    font-size: 40px;
+}
+
+#homeinfo {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    color:#9F2D38;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#contactname {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color:#9F2D38;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.section2 p {
+   line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.section3 p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.section1 p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+/*IMAGES*/
+
+video {
+    margin-bottom: 50px;
+}
+
+#homemail {
+    margin-top: 16px;
+    
+}
+
+#homeinstagram {
+    margin-top: 5px;
+}
+#me {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#mylogo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#navlogo {
+    padding-top: 30px;
+}
+
+#mail {
+    margin-top:5px;
+}
+
+#instagram {
+    margin-top: 2px;
+}
+
+#selfcarebadges {
+    margin-bottom: 75px;
+}
+
+.section2 img {
+ 
+    margin-bottom: 50px;
+   
+}
+
+.section3 img {
+    margin-bottom: 50px;
+}
+
+.section1 img {
+   margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+   
+}
+
+#qrcode {
+    margin-top: 300px;
+   
+}
+
+#adcampaignmockup {
+    margin-top: 20px;
+}
+
+#mobilemockup {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+#miniposter2 {
+    margin-bottom: 60px;
+}
+
+#murallogo {
+    margin-top: 40px;
+}
+/*SECTIONS*/
+
+.resumebody {
+    background-color:#FFF6FA;
+    padding-bottom: 40px;
+}
+
+.bio {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.projectinfo {
+    background-color: #fad6d6;
+    height: 115px;
+   
+}
+.section1 {
+    background-color: #FFF6FA;
+}
+
+.section2 {
+    background-color: #ffecd6;  
+    padding-top: 50px; 
+    z-index: 1;
+}
+
+.section3 {
+    background-color:#FFF6FA;
+    padding-top: 50px;
+}
+
+.section4 {
+    background-color: #fad6d6;
+}
+
+.socials {
+    width: 325px;
+    height: 190px;
+   margin-bottom: -200px;
+   margin-top: 8px;
+}
+
+.resumeinfo {
+    background-color: #fad6d6;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.bio {
+    border-radius: 80px;
+    background-color:#FFF6FA;
+}
+
+/*EXTRA*/
+
+figcaption {
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 30px;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#resumebutton {
+    background-color: #FFB1AF;
+    border: none;
+    height: 100px;
+    color:#9F2D38;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    width: 60%;
+    margin-left: 190px;
+    margin-top: 30px;
+    
+}
+
+#resumebutton:hover {
+    background-color:#9F2D38;
+    color:#FFB1AF;
+    box-shadow:#380207 3px 3px 3px;
+}
+.stripe {
+    display: block;
+    background-color:#9F2D38;
+    height: 5px;
+   margin-left: 40px;
+}
+
+.homestripe {
+    background-color:#9F2D38;
+    height: 5px;
+}
+
+.homebelowfold {
+    background-color: #fad6d6;
+    z-index: 0;
+}
+
+.bio {
+    z-index:1;
+    background-color:#FFF6FA;
+}
+
+
+/*HOVER STATES*/
+
+
+
+.overlay {
+    position:absolute;
+    opacity: 0;
+    height: 200px;
+    width: 200px;
+    transition: .5s ease;
+    background-color:#9F2D38;
+    margin-top: -200px;
+    border-radius: 20px;
+}
+
+.thumbnailscontainer li:hover .overlay {
+    opacity: 0.9;
+    box-shadow: 7px 7px 5px #53050d; 
+}
+
+.projectlabel {
+    color: white;
+    font-size: 18px;
+    font-family: "new-kansas", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+margin-top: 85px;
+}
+
+.projectlabel2 {
+    margin-top: 60px;
+}
+
+.projectlabel3 {
+    margin-top: 75px;
+}
+
+
+
+.thumbnailscontainer img {
+    border-radius: 20px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
+
+.homelist img:hover{
+    filter:saturate(0);
+    filter:brightness(1000%);
+}
+
+#navlogo:hover {
+    filter:saturate(0);
+    filter:brightness(1000%);
+}
+
+@font-face {
+    font-family: "frankensteinregular";
+    src: url(../frankenstein/frankenstein-webfont.woff)
+    
+}
+input.type {
+
+    font-family: "frankensteinregular";
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    height: 80px;
+}
+
+label.type {
+   text-align: center;
+   font-family: "new-kansas", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color:#9F2D38;
+    font-size: 30px;
+}
+
+/*CONTACT TEXT BOXES*/
+
+#name {
+height: 30px;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-right: 35px;
+
+
+}
+
+#email {
+height: 30px;
+margin-top: 10px;
+margin-bottom: 50px;
+}
+
+#subject {
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#message {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+label {
+   
+   font-size: 20px;
+   font-family: "filson-soft", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.toplabel {
+    margin-top: -30px;
+}
+#contactbutton {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 215px;
+    background-color: #FFB1AF;
+    color: #9F2D38;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+}
+
+#contactbutton:hover{
+    background-color: #9F2D38;
+    color:#FFB1AF;
+    box-shadow:#380207 3px 3px 3px;
+}
+
+
+.contactinfo {
+    margin-top: 50px;
+}
+
+.contactintro {
+    margin-top: 20px;
+}
+
+#beep {
+    color:#FF0F55;
+    font-style:italic;
+}
+
+
+.section1 input {
+    background-color: #F9E1C6;
+    border: none;
+    
+}
+
+
+.section1 textarea {
+    background-color: #ffecd6;
+    border: none;
+}
+
+#loader  {
+
+    position: fixed;
+    scale: 2;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm9nb3FpeDk2bjBmZmhodHk1d2xmM3A0bDZ5eWtjNDRva2Jvcjl1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/x3g5s4OUpAYxajMjWk/source.gif) no-repeat center center;
+    z-index: 100;
+    background-size: 10%;
+
+}
